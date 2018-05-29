@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:id="@+id/layout_Scan">
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        app:font="@string/ROBOTO_LIGHT"
+        android:id="@+id/txtQRScannerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qrScanner"
+        android:gravity="center"
+        android:textColor="@color/color_text_nav"
+        android:textSize="14sp"
+        android:background="@color/white"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_below="@+id/layout_Scan"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/txtQRScannerTitle"
+        android:gravity="center_horizontal">
+
+        <com.journeyapps.barcodescanner.DecoratedBarcodeView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:id="@+id/zxing_barcode_scanner"
+            app:zxing_use_texture_view="false"
+            app:zxing_preview_scaling_strategy="centerCrop"
+            app:zxing_scanner_layout="@layout/custom_barcode_scanner"/>
+
+        <ImageView
+            android:layout_below="@+id/zxing_barcode_scanner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/mvisa_pos"
+            android:layout_width="150dp"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

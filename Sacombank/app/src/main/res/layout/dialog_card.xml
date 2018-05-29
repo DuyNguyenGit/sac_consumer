@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/my_custom_background">
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/txtContentCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtContentCard"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#111111"
+        android:textSize="17dp"
+        app:font="@string/ROBOTO_LIGHT"/>
+
+    <com.sacombank.consumers.views.widgets.EditTextViewPlus
+        android:id="@+id/edEnterPinCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="@string/hintEnterPinCard"
+        app:editfont="@string/ROBOTO_LIGHT"
+        android:gravity="center"/>
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line"
+        android:text=""
+        app:font="@string/ROBOTO_LIGHT"
+        android:layout_marginTop="30dp"/>
+
+    <com.sacombank.consumers.views.widgets.ButtonPlus
+        android:id="@+id/btn_OK_DialogQRCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_OK_DialogQRCode"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        app:buttonfont="@string/ROBOTO_LIGHT"
+        android:textColor="@android:color/holo_blue_light"
+        android:background="#00000000"
+        android:textSize="18dp"/>
+</LinearLayout>

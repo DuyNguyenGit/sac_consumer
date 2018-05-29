@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imgTab"
+        android:src="@drawable/ic_star"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp" />
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/tvTabTitle"
+        android:layout_below="@+id/imgTab"
+        android:text="Ẩm thực"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:font="@string/ROBOTO_LIGHT"/>
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="15dp"
+        android:background="@color/bg_line_tabbar" />
+
+</RelativeLayout>

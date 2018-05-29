@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.sacombank.consumers.views.transaction.TransactionFragment">
+
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/textViewPlus2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Chức năng này sẽ được cập nhật trong thời gian tới"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        app:font="@string/ROBOTO_LIGHT" />
+
+</FrameLayout>

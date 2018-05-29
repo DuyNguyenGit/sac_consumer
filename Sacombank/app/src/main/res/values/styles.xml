@@ -1,0 +1,124 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/color_text_hint</item>
+    </style>
+
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/color_text_hint</item>
+    </style>
+
+
+    <style name="LoginTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@drawable/tab_login_selector</item>
+        <item name="tabIndicatorColor">@android:color/transparent</item>
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="tabTextColor">@color/white</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabTextAppearance">@style/MyCustomTabTextAppearance</item>
+    </style>
+
+    <style name="MyCustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="Base.Widget.Design.TabLayout" parent="android:Widget">
+        <item name="tabBackground">@drawable/tab_selector_login</item>
+        <item name="tabIndicatorColor">@android:color/transparent</item>
+        <item name="tabIndicatorHeight">0dp</item>
+    </style>
+
+    <style name="HomeTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@drawable/tab_selector</item>
+        <item name="tabIndicatorColor">@android:color/transparent</item>
+        <item name="tabIndicatorHeight">0dp</item>
+    </style>
+
+    <style name="WhiteCheck">
+        <item name="colorAccent">#fff</item>
+    </style>
+
+
+    <style name="AccountManagerTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@drawable/tab_account_selector</item>
+        <item name="tabIndicatorColor">@android:color/transparent</item>
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="tabTextColor">@color/title_tabbar_unselected_account_manager</item>
+        <item name="tabSelectedTextColor">@color/title_tabbar_selected_account_manager</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabTextAppearance">@android:style/TextAppearance.Widget.TabWidget</item>
+    </style>
+
+
+    <style name="style_password_edit">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/height_edittext</item>
+        <item name="android:textSize">@dimen/font_size_huge</item>
+        <item name="android:textColor">@color/text_color_account_password_hint</item>
+        <item name="android:paddingLeft">@dimen/edt_padding_left</item>
+        <item name="android:paddingRight">@dimen/edt_padding_left</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">6</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:inputType">numberPassword</item>
+
+    </style>
+
+
+    <style name="spinner_style">
+        <item name="android:background">@drawable/spinner_bg</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+
+    <style name="style_edittext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_edittext</item>
+        <item name="android:textSize">@dimen/font_size_huge</item>
+        <item name="android:textColor">@color/text_color_account_password_hint</item>
+        <item name="android:paddingLeft">@dimen/edt_padding_left</item>
+        <item name="android:paddingRight">@dimen/edt_padding_left</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/ratingbar_white</item>
+        <item name="colorControlActivated">@color/ratingbar_yellow</item>
+    </style>
+
+</resources>

@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.sacombank.consumers.views.cardmanagement.CardManagerFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager
+            android:id="@+id/hicvp"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            app:icvp_interpolator="@android:anim/accelerate_decelerate_interpolator"
+            app:icvp_scroll_duration="250"
+            app:icvp_center_page_scale_offset="30dp"
+            app:icvp_min_page_scale_offset="5dp"
+            android:background="@color/white"
+            app:icvp_max_page_scale="0.7"
+            app:icvp_min_page_scale="0.55"
+            app:icvp_medium_scaled="false"/>
+
+        <LinearLayout
+            android:id="@+id/viewPagerCountDots"
+            android:background="@color/white"
+            android:layout_below="@+id/hicvp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="horizontal" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent">
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:elevation="0dp">
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/color_bg_tab_account_unselected"
+                    style="@style/AccountManagerTabLayout"/>
+            </android.support.design.widget.AppBarLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_viewpager_bg_account_manager"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        </android.support.design.widget.CoordinatorLayout>
+    </LinearLayout>
+
+</LinearLayout>

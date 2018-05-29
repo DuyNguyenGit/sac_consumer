@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/my_custom_background">
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/txtContentDiviceSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Đăng nhập tài khoản thành công"
+        android:textColor="#111111"
+        android:textSize="17dp"
+        app:font="@string/ROBOTO_LIGHT" />
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line"
+        android:text=""
+        app:font="@string/ROBOTO_LIGHT"
+        android:layout_marginTop="30dp"/>
+
+    <com.sacombank.consumers.views.widgets.ButtonPlus
+        android:id="@+id/btn_OK_DialogDiviceSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        app:buttonfont="@string/ROBOTO_LIGHT"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_light"
+        android:background="#00000000"
+        android:textSize="18dp"/>
+</LinearLayout>

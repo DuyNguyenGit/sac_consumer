@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="40dp">
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        app:font="@string/ROBOTO_LIGHT"
+        android:background="@color/color_bg_introduce"
+        android:text="" />
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pinselection2"
+        android:gravity="center"
+        android:textSize="16dp"
+        app:font="@string/ROBOTO_LIGHT"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <com.sacombank.consumers.views.widgets.TextViewPlus
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.89"
+            android:text="@string/pinselecttion3"
+            android:paddingLeft="30dp"
+            app:font="@string/ROBOTO_LIGHT"
+            android:textSize="16dp"/>
+
+        <com.sacombank.consumers.views.widgets.EditTextViewPlus
+            app:editfont="@string/ROBOTO_LIGHT"
+            android:id="@+id/txtSelection_SoThe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="XXXXXX"
+            android:gravity="right|center"/>
+    </LinearLayout>
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line"
+        android:text=""
+        android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <com.sacombank.consumers.views.widgets.TextViewPlus
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pinselecttion4"
+            app:font="@string/ROBOTO_LIGHT"
+            android:paddingLeft="30dp"
+            android:textSize="16dp"/>
+
+        <com.sacombank.consumers.views.widgets.EditTextViewPlus
+            app:editfont="@string/ROBOTO_LIGHT"
+            android:id="@+id/txtSelection_SoCVV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="XXXXXX"
+            android:gravity="right|center"/>
+    </LinearLayout>
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line"
+        android:text=""
+        android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <com.sacombank.consumers.views.widgets.TextViewPlus
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pinselection5"
+            app:font="@string/ROBOTO_LIGHT"
+            android:paddingLeft="30dp"
+            android:textSize="16dp"/>
+
+        <com.sacombank.consumers.views.widgets.EditTextViewPlus
+            app:editfont="@string/ROBOTO_LIGHT"
+            android:id="@+id/txtSelection_MaPinMoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="XXXXXX"
+            android:gravity="right|center"/>
+    </LinearLayout>
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line"
+        android:text=""
+        android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <com.sacombank.consumers.views.widgets.TextViewPlus
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pinselecttion6"
+            app:font="@string/ROBOTO_LIGHT"
+            android:paddingLeft="30dp"
+            android:textSize="16dp"/>
+
+        <com.sacombank.consumers.views.widgets.EditTextViewPlus
+            android:id="@+id/txtVerification_Pin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="XXXXXX"
+            app:editfont="@string/ROBOTO_LIGHT"
+            android:gravity="right|center"/>
+    </LinearLayout>
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line"
+        android:text=""
+        android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:gravity="right|center">
+        <com.sacombank.consumers.views.widgets.ButtonPlus
+            app:font="@string/ROBOTO_LIGHT"
+            android:id="@+id/btn_Selection_XacNhan"
+            style="?android:textAppearanceSmall"
+            android:background="@drawable/login_button_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textAllCaps="false"
+            android:text="@string/verification"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+    </LinearLayout>
+
+</LinearLayout>

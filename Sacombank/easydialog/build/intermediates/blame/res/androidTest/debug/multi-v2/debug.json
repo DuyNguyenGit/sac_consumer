@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Freelancer\\Sacombank\\Sacombank\\easydialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Freelancer\\Sacombank\\Sacombank\\easydialog\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,177,241",
+                        "endColumns": "58,62,63,47",
+                        "endOffsets": "109,172,236,284"
+                    }
+                }
+            ]
+        }
+    ]
+}

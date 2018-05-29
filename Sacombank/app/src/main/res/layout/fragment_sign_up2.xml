@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.sacombank.consumers.views.loginregister.register.SignUp2Fragment">
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/register_password_message"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        app:font="@string/ROBOTO_LIGHT" />
+
+
+    <com.sacombank.consumers.views.widgets.EditTextViewPlus
+        android:id="@+id/edtSignUpPass1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="@string/prompt_signup_pass1"
+        android:imeActionId="@+id/login"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:imeOptions="actionNext"
+        android:inputType="numberPassword"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:fontFamily="@string/ROBOTO_LIGHT" />
+
+
+    <com.sacombank.consumers.views.widgets.EditTextViewPlus
+        android:id="@+id/edtSignUpPass2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="@string/prompt_signup_pass2"
+        android:imeActionId="@+id/login"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:imeOptions="actionDone"
+        android:inputType="numberPassword"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:fontFamily="@string/ROBOTO_LIGHT" />
+
+
+    <com.sacombank.consumers.views.widgets.ButtonPlus
+        android:id="@+id/btnSignUpPassword"
+        style="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_button_bg"
+        android:text="@string/action_finish"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:buttonfont="@string/ROBOTO_LIGHT" />
+
+
+</LinearLayout>

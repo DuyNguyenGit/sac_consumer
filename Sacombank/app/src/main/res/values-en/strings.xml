@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">mCARD</string>
+    <string name="close_dialog">OK</string>
+    <string name="hint_password_new2">XXXXXX</string>
+    <string name="hint_password_new1">XXXXXX</string>
+    <string name="hint_password_old">XXXXXX</string>
+    <string name="like_counter">(%1$d)</string>
+
+    <!--<string name="action_settings">Settings</string>-->
+    <!--<string name="greeting_menu">Hello!</string>-->
+    <!--<string name="greeting_menu_2">Please register/sign in to use the app</string>-->
+
+    <!--&lt;!&ndash; TODO: Remove or change this placeholder text &ndash;&gt;-->
+    <!--<string name="title_activity_login">Sign in</string>-->
+
+    <!--&lt;!&ndash; Strings related to login &ndash;&gt;-->
+    <!--<string name="prompt_email">Username</string>-->
+    <!--<string name="prompt_password">Password</string>-->
+    <!--<string name="action_sign_in">Log in</string>-->
+    <!--<string name="action_sign_in_short">Sign in</string>-->
+    <!--<string name="error_invalid_email">This email address is invalid</string>-->
+    <!--<string name="error_invalid_password">This password is too short</string>-->
+    <!--<string name="error_incorrect_password">This password is incorrect</string>-->
+    <!--<string name="error_field_required">This field is required</string>-->
+    <!--<string name="permission_rationale">"Contacts permissions are needed for providing email-->
+        <!--completions."-->
+    <!--</string>-->
+    <!--<string name="welcometo">Welcome to Sacombank</string>-->
+    <!--<string name="produce">Optimal package solutions, modern and multi-utility for customers</string>-->
+
+    <!--&lt;!&ndash;SIDE-MENU&ndash;&gt;-->
+    <!--<string name="home">Home</string>-->
+    <!--<string name="introduce">About Us</string>-->
+    <!--<string name="account">Account user</string>-->
+    <!--<string name="account_register">Login/Registry</string>-->
+    <!--<string name="account_update_pass">Update password</string>-->
+    <!--<string name="account_user">User information</string>-->
+    <!--<string name="account_card_manager">Tag Management</string>-->
+    <!--<string name="payment">Payment</string>-->
+    <!--<string name="payment_qr">Payment through QR code</string>-->
+    <!--<string name="payment_bill">Pay bills</string>-->
+    <!--<string name="payment_credit">Credit card payment</string>-->
+    <!--<string name="payment_card">Phone recharge</string>-->
+    <!--<string name="online">Online transfer</string>-->
+    <!--<string name="history">Transaction history</string>-->
+    <!--<string name="history_qr">Payment through QR code</string>-->
+    <!--<string name="history_pos">Payment by Mobile POS</string>-->
+    <!--<string name="history_bill">Pay bills</string>-->
+    <!--<string name="history_credit">Credit card payment</string>-->
+    <!--<string name="history_phone_card">Phone recharge</string>-->
+    <!--<string name="language">Language</string>-->
+    <!--&lt;!&ndash;SIDE MENU&ndash;&gt;-->
+
+    <!--&lt;!&ndash;TAB CATEGORY&ndash;&gt;-->
+    <!--<string name="food">Culinary</string>-->
+    <!--<string name="travel">Travel</string>-->
+    <!--<string name="shopping">Shopping</string>-->
+    <!--<string name="relax">Entertainment</string>-->
+    <!--<string name="sport">Sport</string>-->
+    <!--<string name="art">Art</string>-->
+    <!--&lt;!&ndash;TAB CATEGORY&ndash;&gt;-->
+
+    <!--&lt;!&ndash; TAB Language&ndash;&gt;-->
+    <!--<string name="confirm">Confirm</string>-->
+    <!--<string name="vietnamese">Vietnamese</string>-->
+    <!--<string name="english">English</string>-->
+
+    <!--&lt;!&ndash; TODO: Remove or change this placeholder text &ndash;&gt;-->
+    <!--<string name="hello_blank_fragment">Hello blank fragment</string>-->
+</resources>

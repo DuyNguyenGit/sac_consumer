@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorGroup"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:src="@drawable/logo"
+            android:scaleType="centerInside"
+            android:layout_width="190dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+    <View
+        android:background="@color/bg_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/horizontal_margin"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_avatar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <com.sacombank.consumers.views.widgets.TextViewPlus
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/greeting_menu"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:font="@string/ROBOTO_LIGHT" />
+
+            <com.sacombank.consumers.views.widgets.TextViewPlus
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/greeting_menu_2"
+                android:textColor="@android:color/white"
+                android:textSize="13sp"
+                app:font="@string/ROBOTO_LIGHT" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

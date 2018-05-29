@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="100dp"
+    android:background="@color/purple_dark"
+    android:padding="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:id="@+id/layoutCategory"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgCategory"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="3dp"
+        android:scaleType="centerCrop"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/tvCategory"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:ellipsize="end"
+        android:maxLines="2"
+        app:font="@string/ROBOTO_LIGHT"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Freelancer\\Sacombank\\Sacombank\\zxing-android-embedded\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_zxing_barcode_scanner.xml.flat",
+        "source": "D:\\Freelancer\\Sacombank\\Sacombank\\zxing-android-embedded\\build\\intermediates\\bundles\\debug\\res\\layout\\zxing_barcode_scanner.xml"
+    },
+    {
+        "merged": "D:\\Freelancer\\Sacombank\\Sacombank\\zxing-android-embedded\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_zxing_capture.xml.flat",
+        "source": "D:\\Freelancer\\Sacombank\\Sacombank\\zxing-android-embedded\\build\\intermediates\\bundles\\debug\\res\\layout\\zxing_capture.xml"
+    },
+    {
+        "merged": "D:\\Freelancer\\Sacombank\\Sacombank\\zxing-android-embedded\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw_zxing_beep.ogg.flat",
+        "source": "D:\\Freelancer\\Sacombank\\Sacombank\\zxing-android-embedded\\build\\intermediates\\bundles\\debug\\res\\raw\\zxing_beep.ogg"
+    }
+]

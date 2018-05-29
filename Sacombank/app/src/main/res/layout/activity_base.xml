@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/base_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sacombank.consumers.BaseActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/color_toolbar">
+
+
+            <RelativeLayout
+                android:id="@+id/layout_title_bar"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imgHome"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/icon_hamburger_menu" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/logo" />
+
+                <ImageView
+                    android:id="@+id/imgLock"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_home" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/layout_search_bar"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imgSearchIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_search_black" />
+
+
+                <ImageView
+                    android:id="@+id/imgCloseIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_search_close" />
+
+                <EditText
+                    android:layout_toRightOf="@id/imgSearchIcon"
+                    android:layout_toLeftOf="@id/imgCloseIcon"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:padding="5dp"
+                    style="@style/style_edittext"
+                    android:background="@android:color/transparent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </RelativeLayout>
+            <View
+                android:id="@+id/viewline"
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/color_line_toolbar" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/cover_layout_common"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorloading"
+        android:clickable="true"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/progress_bar_common_medium"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="@dimen/progress_bar_size_medium"
+            android:layout_height="@dimen/progress_bar_size_medium"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+
+</FrameLayout>

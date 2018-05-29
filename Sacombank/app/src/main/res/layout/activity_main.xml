@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root_layout"
+    tools:context="com.sacombank.consumers.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_back"
+        android:layout_gravity="top"
+        android:visibility="visible"
+        android:background="@drawable/bg_nav_bar_shape"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:id="@+id/imgBack"
+            android:src="@drawable/ic_back"
+            android:paddingLeft="10dp"
+            android:scaleType="fitStart"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <com.sacombank.consumers.views.widgets.TextViewPlus
+            app:font="@string/ROBOTO_LIGHT"
+            android:id="@+id/tvTitleNav"
+            android:text="Back"
+            android:layout_toRightOf="@+id/imgBack"
+            android:textColor="#666666"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </FrameLayout>
+
+    <com.sacombank.consumers.views.widgets.FooterMenu
+        android:id="@+id/footer_menu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:fitsSystemWindows="true"
+        android:paddingTop="5dp"/>
+</LinearLayout>

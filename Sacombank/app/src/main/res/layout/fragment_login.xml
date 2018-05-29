@@ -1,0 +1,171 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_login"
+    android:id="@+id/scrollviewFragment">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        tools:context="com.sacombank.consumers.views.loginregister.LoginFragment"
+        android:layout_gravity="bottom"
+        android:id="@+id/layout_Outside">
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/layout_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:alpha="0.8"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="top">
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:elevation="0dp">
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tabs"
+                    style="@style/LoginTabLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.AppBarLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bg_selected_tab"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        </android.support.design.widget.CoordinatorLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_confirm"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="370dp"
+            android:visibility="gone"
+            android:alpha="0.8"
+            android:layout_gravity="bottom">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/bg_unselected_tab"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_height="110dp">
+
+                <com.sacombank.consumers.views.widgets.TextViewPlus
+                    android:text="@string/thanks"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    app:font="@string/ROBOTO_LIGHT"
+                    android:layout_height="wrap_content" />
+
+                <com.sacombank.consumers.views.widgets.TextViewPlus
+                    android:text="@string/thanks_message"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="13sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    app:font="@string/ROBOTO_LIGHT"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="@color/bg_selected_tab"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent">
+
+
+                <com.sacombank.consumers.views.widgets.TextViewPlus
+                    android:id="@+id/tvMobile"
+                    android:text="@string/signin_confirm_message"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    app:font="@string/ROBOTO_LIGHT"
+                    android:layout_height="wrap_content" />
+
+                <com.sacombank.consumers.views.widgets.EditTextViewPlus
+                    android:id="@+id/edtConfirmCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/rounded_edit_text"
+                    android:hint="@string/prompt_confirm_code"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    app:font="@string/ROBOTO_LIGHT"
+                    android:maxLines="1"/>
+
+                <com.sacombank.consumers.views.widgets.ButtonPlus
+                    android:id="@+id/btnFinishSignIn"
+                    style="?android:textAppearanceMedium"
+                    android:background="@drawable/login_button_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:textAllCaps="false"
+                    android:text="@string/action_finish"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.sacombank.consumers.views.widgets.TextViewPlus
+                        android:id="@+id/tvSignInConfirmWarning"
+                        android:textSize="14sp"
+                        android:text="@string/signin_warning"
+                        android:textColor="@color/white"
+                        android:layout_marginRight="3dp"
+                        app:font="@string/ROBOTO_LIGHT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <com.sacombank.consumers.views.widgets.TextViewPlus
+                        android:id="@+id/tvSignInSendAgain"
+                        android:textSize="16sp"
+                        android:text="@string/send_again"
+                        app:font="@string/ROBOTO_LIGHT"
+                        android:textColor="@color/text_send_again"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</ScrollView>
+

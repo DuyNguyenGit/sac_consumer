@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <com.sacombank.consumers.views.widgets.TextViewPlus
+            android:id="@+id/txtHistoryTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mua bán hàng hóa tại Lazada"
+            android:layout_marginLeft="20dp"
+            app:font="@string/ROBOTO_LIGHT"
+            android:textColor="#111111"/>
+
+        <com.sacombank.consumers.views.widgets.TextViewPlus
+            android:id="@+id/txtHistoryCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="450,000 VND"
+            android:layout_marginLeft="20dp"
+            app:font="@string/ROBOTO_LIGHT"
+            android:textColor="#111111"/>
+    </LinearLayout>
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/txtHistoryCode"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="4321"
+        app:font="@string/ROBOTO_LIGHT"
+        android:textColor="#111111"/>
+</LinearLayout>

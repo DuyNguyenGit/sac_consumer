@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#00000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/border_radius">
+
+        <com.sacombank.consumers.views.widgets.TextViewPlus
+            android:id="@+id/txtTitleDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dialogTitle"
+            app:font="@string/ROBOTO_LIGHT"
+            android:gravity="center"
+            android:layout_marginTop="30dp"/>
+        <com.sacombank.consumers.views.widgets.TextViewPlus
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            android:text=""
+            app:font="@string/ROBOTO_LIGHT"
+            android:layout_marginTop="30dp"/>
+
+        <com.sacombank.consumers.views.widgets.ButtonPlus
+            app:buttonfont="@string/ROBOTO_LIGHT"
+            android:id="@+id/btn_OK_Dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:textStyle="bold"
+            android:background="@drawable/button_border"
+            android:textColor="@color/blue"/>
+
+    </LinearLayout>
+</LinearLayout>

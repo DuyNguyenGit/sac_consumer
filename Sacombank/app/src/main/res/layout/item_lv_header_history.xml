@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#2F2F2F"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical" >
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/txtDateHeaderHistory"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_login_button"
+        android:gravity="left|center"
+        android:text="12/08/2017"
+        android:paddingLeft="20dp"
+        android:textAllCaps="true"
+        android:textSize="14dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFF"
+        app:font="@string/ROBOTO_LIGHT"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+</LinearLayout>

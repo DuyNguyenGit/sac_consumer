@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextViewPlus">
+        <attr name="font" format="string" />
+    </declare-styleable>
+    <declare-styleable name="EditTextViewPlus">
+        <attr name="editfont" format="string" />
+    </declare-styleable>
+    <declare-styleable name="ButtonPlus">
+        <attr name="buttonfont" format="string" />
+    </declare-styleable>
+    <declare-styleable name="SwitchPlus">
+        <attr name="switchfont" format="string" />
+    </declare-styleable>
+
+
+    <string name="ROBOTO_BLACK_0">ROBOTO-BLACK_0.TTF</string>
+    <string name="ROBOTO_BLACKITALIC">ROBOTO-BLACKITALIC.TTF</string>
+    <string name="ROBOTO_BOLD">ROBOTO-BOLD.TTF</string>
+    <string name="ROBOTO_BOLDITALIC">ROBOTO-BOLDITALIC.TTF</string>
+    <string name="ROBOTO_ITALIC">ROBOTO-ITALIC.TTF</string>
+    <string name="ROBOTO_LIGHT">ROBOTO-LIGHT.TTF</string>
+    <string name="ROBOTO_LIGHTITALIC">ROBOTO-LIGHTITALIC.TTF</string>
+    <string name="ROBOTO_MEDIUM">ROBOTO-MEDIUM.TTF</string>
+    <string name="ROBOTO_MEDIUMITALIC">ROBOTO-MEDIUMITALIC.TTF</string>
+    <string name="ROBOTO_REGULAR">ROBOTO-REGULAR.TTF</string>
+    <string name="ROBOTO_THIN">ROBOTO-THIN.TTF</string>
+    <string name="ROBOTO_THINITALIC">ROBOTO-THINITALIC.TTF</string>
+    <string name="ROBOTOCONDENSED_BOLD">ROBOTOCONDENSED-BOLD.TTF</string>
+    <string name="ROBOTOCONDENSED_BOLDITALIC">ROBOTOCONDENSED-BOLDITALIC.TTF</string>
+    <string name="ROBOTOCONDENSED_ITALIC">ROBOTOCONDENSED-ITALIC.TTF</string>
+    <string name="ROBOTOCONDENSED_LIGHT">ROBOTOCONDENSED-LIGHT.TTF</string>
+    <string name="ROBOTOCONDENSED_LIGHTITALIC">ROBOTOCONDENSED-LIGHTITALIC.TTF</string>
+    <string name="ROBOTOCONDENSED_REGULAR">ROBOTOCONDENSED-REGULAR.TTF</string>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+</resources>

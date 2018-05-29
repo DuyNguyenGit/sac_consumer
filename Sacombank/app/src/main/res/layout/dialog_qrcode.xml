@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/my_custom_background">
+
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/txtContentQRCode1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtContentQRCode"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#FF003275"
+        android:textSize="17sp"
+        app:editfont="@string/ROBOTO_LIGHT"/>
+
+    <com.sacombank.consumers.views.widgets.EditTextViewPlus
+        android:id="@+id/edEnterQRCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:maxLength="6"
+        android:textSize="15sp"
+        android:textColorHint="#FFB6B4B4"
+        android:inputType="phone"
+        app:editfont="@string/ROBOTO_LIGHT"
+        />
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/txtTuDongKhoaThe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTuDongKhoaThe"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        app:font="@string/ROBOTO_LIGHT"
+        android:textColor="#111111"
+        android:textSize="14dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="italic"/>
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line"
+        app:font="@string/ROBOTO_LIGHT"
+        android:text=""
+        android:layout_marginTop="30dp"/>
+
+    <com.sacombank.consumers.views.widgets.ButtonPlus
+        android:id="@+id/btn_HoanTat_DialogEnterPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_OK_DialogEnterPassword"
+        app:buttonfont="@string/ROBOTO_LIGHT"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_light"
+        android:background="#00000000"
+        android:textSize="18dp"/>
+
+
+</LinearLayout>

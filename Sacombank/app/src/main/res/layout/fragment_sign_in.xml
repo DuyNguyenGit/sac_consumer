@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
+    tools:context="com.sacombank.consumers.views.loginregister.login.SignInFragment"
+    android:orientation="vertical"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+
+    <com.sacombank.consumers.views.widgets.EditTextViewPlus
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="@string/prompt_email"
+        android:inputType="numberDecimal"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:fontFamily="@string/ROBOTO_LIGHT"
+        android:text="0916394885" />
+
+    <com.sacombank.consumers.views.widgets.EditTextViewPlus
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_edit_text"
+        android:fontFamily="@string/ROBOTO_LIGHT"
+        android:hint="@string/prompt_password"
+        android:imeActionId="@+id/login"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:inputType="numberPassword"
+        android:maxLength="6"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="777777"/>
+
+    <com.sacombank.consumers.views.widgets.ButtonPlus
+        android:id="@+id/btnLogin"
+        style="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/login_button_bg"
+        android:text="@string/action_sign_in"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:buttonfont="@string/ROBOTO_LIGHT" />
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/tvSkip"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        style="?android:textAppearanceMedium"
+        android:text="Bỏ qua"
+        app:font="@string/ROBOTO_LIGHT"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

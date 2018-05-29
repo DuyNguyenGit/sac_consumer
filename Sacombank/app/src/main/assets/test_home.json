@@ -1,0 +1,565 @@
+//{
+//  "CategoryObject": [
+//    {
+//      "ActiveIconID": 1,
+//      "ActiveIconUrl": "https://lh3.googleusercontent.com/TDBUiEtFvwTkvMLoWz1XlPcCViTJI3H-E4i1SbW2xKBClaa4tR-11ctCFaAibUOMvNLG9vchhJ50dhU\u003dw1920-h979",
+//      "CategoryID": 38,
+//      "InactiveIconID": 2,
+//      "InactiveIconUrl": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "LanguageID": "EN",
+//      "Name": "Shopping",
+//      "Order": 5
+//    },
+//    {
+//      "ActiveIconID": 2,
+//      "ActiveIconUrl": "https://lh3.googleusercontent.com/TDBUiEtFvwTkvMLoWz1XlPcCViTJI3H-E4i1SbW2xKBClaa4tR-11ctCFaAibUOMvNLG9vchhJ50dhU\u003dw1920-h979",
+//      "CategoryID": 3,
+//      "InactiveIconID": 2,
+//      "InactiveIconUrl": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "LanguageID": "VI",
+//      "Name": "Du lịch",
+//      "Order": 2
+//    },
+//    {
+//      "ActiveIconID": 1,
+//      "ActiveIconUrl": "https://lh3.googleusercontent.com/TDBUiEtFvwTkvMLoWz1XlPcCViTJI3H-E4i1SbW2xKBClaa4tR-11ctCFaAibUOMvNLG9vchhJ50dhU\u003dw1920-h979",
+//      "CategoryID": 2,
+//      "InactiveIconID": 2,
+//      "InactiveIconUrl": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "LanguageID": "EN",
+//      "Name": "Food \u0026 Beverage",
+//      "Order": 1
+//    },
+//    {
+//      "ActiveIconID": 0,
+//      "ActiveIconUrl": "https://lh3.googleusercontent.com/TDBUiEtFvwTkvMLoWz1XlPcCViTJI3H-E4i1SbW2xKBClaa4tR-11ctCFaAibUOMvNLG9vchhJ50dhU\u003dw1920-h979",
+//      "CategoryID": 39,
+//      "InactiveIconID": 2,
+//      "InactiveIconUrl": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "LanguageID": "VI",
+//      "Name": "Mới nhất",
+//      "Order": 0
+//    },
+//    {
+//      "ActiveIconID": 1,
+//      "ActiveIconUrl": "https://lh3.googleusercontent.com/TDBUiEtFvwTkvMLoWz1XlPcCViTJI3H-E4i1SbW2xKBClaa4tR-11ctCFaAibUOMvNLG9vchhJ50dhU\u003dw1920-h979",
+//      "CategoryID": 8,
+//      "InactiveIconID": 2,
+//      "InactiveIconUrl": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "LanguageID": "EN",
+//      "Name": "Entertainment",
+//      "Order": 4
+//    },
+//    {
+//      "ActiveIconID": 5,
+//      "ActiveIconUrl": "https://lh3.googleusercontent.com/TDBUiEtFvwTkvMLoWz1XlPcCViTJI3H-E4i1SbW2xKBClaa4tR-11ctCFaAibUOMvNLG9vchhJ50dhU\u003dw1920-h979",
+//      "CategoryID": 37,
+//      "InactiveIconID": 2,
+//      "InactiveIconUrl": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "LanguageID": "VI",
+//      "Name": "Mua Sắm",
+//      "Order": 5
+//    },
+//    {
+//      "ActiveIconID": 1,
+//      "ActiveIconUrl": "https://lh3.googleusercontent.com/TDBUiEtFvwTkvMLoWz1XlPcCViTJI3H-E4i1SbW2xKBClaa4tR-11ctCFaAibUOMvNLG9vchhJ50dhU\u003dw1920-h979",
+//      "CategoryID": 40,
+//      "InactiveIconID": 2,
+//      "InactiveIconUrl": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "LanguageID": "EN",
+//      "Name": "Latest",
+//      "Order": 0
+//    },
+//    {
+//      "ActiveIconID": 3,
+//      "ActiveIconUrl": "https://lh3.googleusercontent.com/TDBUiEtFvwTkvMLoWz1XlPcCViTJI3H-E4i1SbW2xKBClaa4tR-11ctCFaAibUOMvNLG9vchhJ50dhU\u003dw1920-h979",
+//      "CategoryID": 5,
+//      "InactiveIconID": 2,
+//      "InactiveIconUrl": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "LanguageID": "VI",
+//      "Name": "Thể thao",
+//      "Order": 3
+//    },
+//    {
+//      "ActiveIconID": 1,
+//      "ActiveIconUrl": "https://lh3.googleusercontent.com/TDBUiEtFvwTkvMLoWz1XlPcCViTJI3H-E4i1SbW2xKBClaa4tR-11ctCFaAibUOMvNLG9vchhJ50dhU\u003dw1920-h979",
+//      "CategoryID": 4,
+//      "InactiveIconID": 2,
+//      "InactiveIconUrl": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "LanguageID": "EN",
+//      "Name": "Travel",
+//      "Order": 2
+//    },
+//    {
+//      "ActiveIconID": 4,
+//      "ActiveIconUrl": "https://lh3.googleusercontent.com/TDBUiEtFvwTkvMLoWz1XlPcCViTJI3H-E4i1SbW2xKBClaa4tR-11ctCFaAibUOMvNLG9vchhJ50dhU\u003dw1920-h979",
+//      "CategoryID": 7,
+//      "InactiveIconID": 2,
+//      "InactiveIconUrl": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "LanguageID": "VI",
+//      "Name": "Giải trí",
+//      "Order": 4
+//    },
+//    {
+//      "ActiveIconID": 1,
+//      "ActiveIconUrl": "https://lh3.googleusercontent.com/TDBUiEtFvwTkvMLoWz1XlPcCViTJI3H-E4i1SbW2xKBClaa4tR-11ctCFaAibUOMvNLG9vchhJ50dhU\u003dw1920-h979",
+//      "CategoryID": 6,
+//      "InactiveIconID": 2,
+//      "InactiveIconUrl": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "LanguageID": "EN",
+//      "Name": "Sport",
+//      "Order": 3
+//    },
+//    {
+//      "ActiveIconID": 1,
+//      "ActiveIconUrl": "https://lh3.googleusercontent.com/TDBUiEtFvwTkvMLoWz1XlPcCViTJI3H-E4i1SbW2xKBClaa4tR-11ctCFaAibUOMvNLG9vchhJ50dhU\u003dw1920-h979",
+//      "CategoryID": 1,
+//      "InactiveIconID": 2,
+//      "InactiveIconUrl": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "LanguageID": "VI",
+//      "Name": "Ẩm thực",
+//      "Order": 1
+//    }
+//  ],
+//  "SuggestionObject": [
+//    {
+//      "SuggestionOrder": 1,
+//      "LikeCounter": 5,
+//      "CategoryID": 39,
+//      "SuggestionImage": "http://thuviendohoa.vn/upload/images/items/quang-cao-du-lich-psd-37.jpg",
+//      "SuggestionLink": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "SuggestionSummary": "Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi.",
+//      "SuggestID": 0,
+//      "Rating": "3",
+//      "StartDate": "",
+//      "EndDate": "",
+//      "Title": "Chương trình KM 1",
+//      "TitleHighLight": ""
+//    },
+//    {
+//      "SuggestionOrder": 1,
+//      "LikeCounter": 5,
+//      "CategoryID": 39,
+//      "SuggestionImage": "http://thuviendohoa.vn/upload/images/items/quang-cao-du-lich-psd-37.jpg",
+//      "SuggestionLink": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "SuggestionSummary": "Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi.",
+//      "SuggestID": 0,
+//      "Rating": "3",
+//      "StartDate": "",
+//      "EndDate": "",
+//      "Title": "Chương trình KM 1",
+//      "TitleHighLight": ""
+//    },
+//    {
+//      "SuggestionOrder": 1,
+//      "LikeCounter": 5,
+//      "CategoryID": 39,
+//      "SuggestionImage": "http://thuviendohoa.vn/upload/images/items/quang-cao-du-lich-psd-37.jpg",
+//      "SuggestionLink": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "SuggestionSummary": "Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi.",
+//      "SuggestID": 0,
+//      "Rating": "3",
+//      "StartDate": "",
+//      "EndDate": "",
+//      "Title": "Chương trình KM 1",
+//      "TitleHighLight": ""
+//    },
+//    {
+//      "SuggestionOrder": 1,
+//      "LikeCounter": 5,
+//      "CategoryID": 39,
+//      "SuggestionImage": "http://thuviendohoa.vn/upload/images/items/quang-cao-du-lich-psd-37.jpg",
+//      "SuggestionLink": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "SuggestionSummary": "Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi.",
+//      "SuggestID": 0,
+//      "Rating": "3",
+//      "StartDate": "",
+//      "EndDate": "",
+//      "Title": "Chương trình KM 1",
+//      "TitleHighLight": ""
+//    },
+//    {
+//      "SuggestionOrder": 1,
+//      "LikeCounter": 5,
+//      "CategoryID": 37,
+//      "SuggestionImage": "http://thuviendohoa.vn/upload/images/items/quang-cao-du-lich-psd-37.jpg",
+//      "SuggestionLink": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "SuggestionSummary": "Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi.",
+//      "SuggestID": 0,
+//      "Rating": "3",
+//      "StartDate": "",
+//      "EndDate": "",
+//      "Title": "Chương trình KM 1",
+//      "TitleHighLight": ""
+//    },
+//    {
+//      "SuggestionOrder": 1,
+//      "LikeCounter": 5,
+//      "CategoryID": 37,
+//      "SuggestionImage": "http://thuviendohoa.vn/upload/images/items/quang-cao-du-lich-psd-37.jpg",
+//      "SuggestionLink": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "SuggestionSummary": "Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi.",
+//      "SuggestID": 0,
+//      "Rating": "3",
+//      "StartDate": "",
+//      "EndDate": "",
+//      "Title": "Chương trình KM 1",
+//      "TitleHighLight": ""
+//    },
+//    {
+//      "SuggestionOrder": 1,
+//      "LikeCounter": 5,
+//      "CategoryID": 37,
+//      "SuggestionImage": "http://thuviendohoa.vn/upload/images/items/quang-cao-du-lich-psd-37.jpg",
+//      "SuggestionLink": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "SuggestionSummary": "Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi.",
+//      "SuggestID": 0,
+//      "Rating": "3",
+//      "StartDate": "",
+//      "EndDate": "",
+//      "Title": "Chương trình KM 1",
+//      "TitleHighLight": ""
+//    },
+//    {
+//      "SuggestionOrder": 1,
+//      "LikeCounter": 5,
+//      "CategoryID": 1,
+//      "SuggestionImage": "http://thuviendohoa.vn/upload/images/items/quang-cao-du-lich-psd-37.jpg",
+//      "SuggestionLink": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "SuggestionSummary": "Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi.",
+//      "SuggestID": 0,
+//      "Rating": "3",
+//      "StartDate": "",
+//      "EndDate": "",
+//      "Title": "Chương trình KM 1",
+//      "TitleHighLight": ""
+//    },
+//    {
+//      "SuggestionOrder": 1,
+//      "LikeCounter": 5,
+//      "CategoryID": 1,
+//      "SuggestionImage": "http://thuviendohoa.vn/upload/images/items/quang-cao-du-lich-psd-37.jpg",
+//      "SuggestionLink": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "SuggestionSummary": "Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi.",
+//      "SuggestID": 0,
+//      "Rating": "3",
+//      "StartDate": "",
+//      "EndDate": "",
+//      "Title": "Chương trình KM 1",
+//      "TitleHighLight": ""
+//    },
+//    {
+//      "SuggestionOrder": 1,
+//      "LikeCounter": 5,
+//      "CategoryID": 1,
+//      "SuggestionImage": "http://thuviendohoa.vn/upload/images/items/quang-cao-du-lich-psd-37.jpg",
+//      "SuggestionLink": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "SuggestionSummary": "Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi.",
+//      "SuggestID": 0,
+//      "Rating": "3",
+//      "StartDate": "",
+//      "EndDate": "",
+//      "Title": "Chương trình KM 1",
+//      "TitleHighLight": ""
+//    },
+//    {
+//      "SuggestionOrder": 1,
+//      "LikeCounter": 5,
+//      "CategoryID": 3,
+//      "SuggestionImage": "http://thuviendohoa.vn/upload/images/items/quang-cao-du-lich-psd-37.jpg",
+//      "SuggestionLink": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "SuggestionSummary": "Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi.",
+//      "SuggestID": 0,
+//      "Rating": "3",
+//      "StartDate": "",
+//      "EndDate": "",
+//      "Title": "Chương trình KM 1",
+//      "TitleHighLight": ""
+//    },
+//    {
+//      "SuggestionOrder": 1,
+//      "LikeCounter": 5,
+//      "CategoryID": 3,
+//      "SuggestionImage": "http://thuviendohoa.vn/upload/images/items/quang-cao-du-lich-psd-37.jpg",
+//      "SuggestionLink": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "SuggestionSummary": "Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi.",
+//      "SuggestID": 0,
+//      "Rating": "3",
+//      "StartDate": "",
+//      "EndDate": "",
+//      "Title": "Chương trình KM 1",
+//      "TitleHighLight": ""
+//    },
+//    {
+//      "SuggestionOrder": 1,
+//      "LikeCounter": 5,
+//      "CategoryID": 3,
+//      "SuggestionImage": "http://thuviendohoa.vn/upload/images/items/quang-cao-du-lich-psd-37.jpg",
+//      "SuggestionLink": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "SuggestionSummary": "Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi.",
+//      "SuggestID": 0,
+//      "Rating": "3",
+//      "StartDate": "",
+//      "EndDate": "",
+//      "Title": "Chương trình KM 1",
+//      "TitleHighLight": ""
+//    },
+//    {
+//      "SuggestionOrder": 1,
+//      "LikeCounter": 5,
+//      "CategoryID": 5,
+//      "SuggestionImage": "http://thuviendohoa.vn/upload/images/items/quang-cao-du-lich-psd-37.jpg",
+//      "SuggestionLink": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "SuggestionSummary": "Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi.",
+//      "SuggestID": 0,
+//      "Rating": "3",
+//      "StartDate": "",
+//      "EndDate": "",
+//      "Title": "Chương trình KM 1",
+//      "TitleHighLight": ""
+//    },
+//    {
+//      "SuggestionOrder": 1,
+//      "LikeCounter": 5,
+//      "CategoryID": 5,
+//      "SuggestionImage": "http://thuviendohoa.vn/upload/images/items/quang-cao-du-lich-psd-37.jpg",
+//      "SuggestionLink": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "SuggestionSummary": "Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi.",
+//      "SuggestID": 0,
+//      "Rating": "3",
+//      "StartDate": "",
+//      "EndDate": "",
+//      "Title": "Chương trình KM 1",
+//      "TitleHighLight": ""
+//    },
+//    {
+//      "SuggestionOrder": 1,
+//      "LikeCounter": 5,
+//      "CategoryID": 5,
+//      "SuggestionImage": "http://thuviendohoa.vn/upload/images/items/quang-cao-du-lich-psd-37.jpg",
+//      "SuggestionLink": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "SuggestionSummary": "Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi.",
+//      "SuggestID": 0,
+//      "Rating": "3",
+//      "StartDate": "",
+//      "EndDate": "",
+//      "Title": "Chương trình KM 1",
+//      "TitleHighLight": ""
+//    },
+//    {
+//      "SuggestionOrder": 1,
+//      "LikeCounter": 5,
+//      "CategoryID": 7,
+//      "SuggestionImage": "http://thuviendohoa.vn/upload/images/items/quang-cao-du-lich-psd-37.jpg",
+//      "SuggestionLink": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "SuggestionSummary": "Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi.",
+//      "SuggestID": 0,
+//      "Rating": "3",
+//      "StartDate": "",
+//      "EndDate": "",
+//      "Title": "Chương trình KM 1",
+//      "TitleHighLight": ""
+//    },
+//    {
+//      "SuggestionOrder": 1,
+//      "LikeCounter": 5,
+//      "CategoryID": 7,
+//      "SuggestionImage": "http://thuviendohoa.vn/upload/images/items/quang-cao-du-lich-psd-37.jpg",
+//      "SuggestionLink": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "SuggestionSummary": "Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi.",
+//      "SuggestID": 0,
+//      "Rating": "3",
+//      "StartDate": "",
+//      "EndDate": "",
+//      "Title": "Chương trình KM 1",
+//      "TitleHighLight": ""
+//    },
+//    {
+//      "SuggestionOrder": 1,
+//      "LikeCounter": 5,
+//      "CategoryID": 7,
+//      "SuggestionImage": "http://thuviendohoa.vn/upload/images/items/quang-cao-du-lich-psd-37.jpg",
+//      "SuggestionLink": "https://lh6.googleusercontent.com/3T6fm1xIr6w2X0NtTHz-xMGF_CdcfGGINw9ds_lsCL6ESvkywk5yXTVYnWZj5gFhnVc7CMfnv19UMv0\u003dw1920-h979",
+//      "SuggestionSummary": "Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi. Mô tả ngắn, giới thiệu bài viết khuyến mãi.",
+//      "SuggestID": 0,
+//      "Rating": "3",
+//      "StartDate": "",
+//      "EndDate": "",
+//      "Title": "Chương trình KM 1",
+//      "TitleHighLight": ""
+//    }
+//  ],
+//  "DeviceID": "e849f276cd956527",
+//  "FeatureObject": [],
+//  "LanguageID": "Vi",
+//  "PromotionObject": [],
+//  "RefNumber": "012345678901",
+//  "Description": "Lay thong tin man hinh home thanh cong",
+//  "RespCode": "00"
+//}
+
+{
+  "CategoryObject": [
+    {
+      "ActiveIconID": 1,
+      "ActiveIconUrl": "",
+      "CategoryID": 45,
+      "InactiveIconID": 2,
+      "InactiveIconUrl": "http://photouploads.com/images/0e8e52.png",
+      "LanguageID": "VI",
+      "Name": "Thời trang",
+      "Order": 2
+    },
+    {
+      "ActiveIconID": 1,
+      "ActiveIconUrl": "",
+      "CategoryID": 43,
+      "InactiveIconID": 2,
+      "InactiveIconUrl": "http://photouploads.com/images/032688.png",
+      "LanguageID": "VI",
+      "Name": "Giáo dục",
+      "Order": 7
+    },
+    {
+      "ActiveIconID": 1,
+      "ActiveIconUrl": "",
+      "CategoryID": 7,
+      "InactiveIconID": 2,
+      "InactiveIconUrl": "http://photouploads.com/images/62c54d.png",
+      "LanguageID": "VI",
+      "Name": "Giải trí",
+      "Order": 6
+    },
+    {
+      "ActiveIconID": 1,
+      "ActiveIconUrl": "",
+      "CategoryID": 1,
+      "InactiveIconID": 2,
+      "InactiveIconUrl": "http://photouploads.com/images/623529.png",
+      "LanguageID": "VI",
+      "Name": "Ẩm thực",
+      "Order": 1
+    },
+    {
+      "ActiveIconID": 1,
+      "ActiveIconUrl": "",
+      "CategoryID": 41,
+      "InactiveIconID": 2,
+      "InactiveIconUrl": "http://photouploads.com/images/0ba37e.png",
+      "LanguageID": "VI",
+      "Name": "Sức khỏe",
+      "Order": 8
+    },
+    {
+      "ActiveIconID": 1,
+      "ActiveIconUrl": "",
+      "CategoryID": 3,
+      "InactiveIconID": 2,
+      "InactiveIconUrl": "http://photouploads.com/images/c77120.png",
+      "LanguageID": "VI",
+      "Name": "Du lịch",
+      "Order": 5
+    },
+    {
+      "ActiveIconID": 1,
+      "ActiveIconUrl": "",
+      "CategoryID": 39,
+      "InactiveIconID": 2,
+      "InactiveIconUrl": "http://photouploads.com/images/1ac063.png",
+      "LanguageID": "VI",
+      "Name": "Mới nhất",
+      "Order": 0
+    },
+    {
+      "ActiveIconID": 1,
+      "ActiveIconUrl": "",
+      "CategoryID": 37,
+      "InactiveIconID": 2,
+      "InactiveIconUrl": "http://photouploads.com/images/118b52.png",
+      "LanguageID": "VI",
+      "Name": "Mua Sắm",
+      "Order": 4
+    }
+  ],
+  "DeviceID": "e849f276cd956527",
+  "FeatureObject": [
+    {
+      "FeatureImage": "https://khuyenmai.sacombank.com/Data/Sites/1/News/22/banner-web-km-sacombank_1600x660px.jpg",
+      "FeatureName": "",
+      "FeatureOrder": 3,
+      "FeatureTitle": "Ưu đãi thẻ JCB"
+    },
+    {
+      "FeatureImage": "https://khuyenmai.sacombank.com/Data/Sites/1/News/1816/banner-1600px-x-660px.jpg",
+      "FeatureName": "",
+      "FeatureOrder": 2,
+      "FeatureTitle": "Chớp mắt đến Maldives cùng thẻ Sacombank``"
+    },
+    {
+      "FeatureImage": "https://khuyenmai.sacombank.com/Data/Sites/1/News/1986/1660x660.jpg",
+      "FeatureName": "",
+      "FeatureOrder": 5,
+      "FeatureTitle": "Ưu đãi bánh Trung Thu Ái Huê với thẻ Sacombank"
+    },
+    {
+      "FeatureImage": "https://static.pexels.com/photos/20974/pexels-photo.jpg",
+      "FeatureName": "",
+      "FeatureOrder": 5,
+      "FeatureTitle": "Thêm bạn thêm quà"
+    }
+  ],
+  "LanguageID": "VI",
+  "RefNumber": "012345678901",
+  "SuggestionObject": [
+    {
+      "CategoryIDList": [
+        39
+      ],
+      "EndDate": "20170801",
+      "LikeCounter": 0,
+      "Rating": "0",
+      "StartDate": "20170822",
+      "SuggestID": "9",
+      "SuggestionImage": "https://khuyenmai.sacombank.com/Data/Sites/1/News/1816/banner-1600px-x-660px.jpg",
+      "SuggestionLink": "https://www.google.com",
+      "SuggestionOrder": 7,
+      "SuggestionSummary": "",
+      "Title": "Giảm 10% giá phòng với thẻ Sacombank MasterCard ",
+      "TitleHighLight": "Giảm 10% giá phòng"
+    },
+    {
+      "CategoryIDList": [
+        39
+      ],
+      "EndDate": "20170801",
+      "LikeCounter": 0,
+      "Rating": "0",
+      "StartDate": "20170822",
+      "SuggestID": "4",
+      "SuggestionImage": "https://khuyenmai.sacombank.com/Data/Sites/1/News/1940/nbanner-km-sacombank_1600x660px.jpg",
+      "SuggestionLink": "https://www.google.com",
+      "SuggestionOrder": 4,
+      "SuggestionSummary": "",
+      "Title": "Ngàn niềm vui khi gửi tiết kiệm tại Sacombank",
+      "TitleHighLight": "Ngàn niềm vui khi gửi tiết kiệm tại Sacombank"
+    },
+    {
+      "CategoryIDList": [
+        39
+      ],
+      "EndDate": "20170904",
+      "LikeCounter": 0,
+      "Rating": "0",
+      "StartDate": "20170814",
+      "SuggestID": "7",
+      "SuggestionImage": "https://khuyenmai.sacombank.com/Data/Sites/1/News/1816/banner-1600px-x-660px.jpg",
+      "SuggestionLink": "https://www.google.com",
+      "SuggestionOrder": 6,
+      "SuggestionSummary": "",
+      "Title": "Ưu đãi thẻ Mastercard Kỳ nghỉ trong mơ",
+      "TitleHighLight": "Giá vé chỉ từ 3.200.000 VND"
+    }
+  ],
+  "Description": "Lay thong tin man hinh home thanh cong",
+  "RespCode": "00"
+}

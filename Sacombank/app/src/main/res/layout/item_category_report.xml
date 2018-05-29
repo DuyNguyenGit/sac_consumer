@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_card_list"
+    android:id="@+id/layoutCategoryReport"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginRight="8dp"
+    android:gravity="center"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/imgCategoryReport"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:background="@drawable/promotion_bg"
+            android:layout_width="110dp"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/tvHightLight"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvDueDate"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="12sp"
+                android:textColor="@color/white_80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <com.sacombank.consumers.views.widgets.TextViewPlus
+            android:id="@+id/tvCategoryReportTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:ellipsize="end"
+            android:maxLines="2"
+            app:font="@string/ROBOTO_LIGHT"
+            android:text="Vinpearl Resort 5* Phú Quốc + Ăn Sáng"
+            android:textColor="@color/color_card_view_title"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <com.sacombank.consumers.views.widgets.TextViewPlus
+            android:id="@+id/tvCategoryReportDescription"
+            android:layout_below="@+id/tvCategoryReportTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            app:font="@string/ROBOTO_LIGHT"
+            android:text="Áp dụng cho: 01 đêm nghỉ dưỡng \n Phòng Deluxe Garen View"
+            android:textColor="@color/color_card_view_content"
+            android:textSize="14sp"
+            />
+
+        <com.sacombank.consumers.views.widgets.TextViewPlus
+            app:font="@string/ROBOTO_LIGHT"
+            android:id="@+id/textView2"
+            android:layout_above="@+id/layout_rating"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/darker_gray"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:id="@+id/layout_rating"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RatingBar
+                android:id="@+id/ratingBarCategoryReport"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="5"
+                android:stepSize="0.5"
+                android:progressTint="#FFFF00"
+                />
+            <com.sacombank.consumers.views.widgets.TextViewPlus
+                android:id="@+id/tvCategoryReport"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textSize="14sp"
+                android:textColor="@color/color_card_view_content"
+                android:text="@string/like_counter"
+                android:layout_marginLeft="7dp"
+                app:font="@string/ROBOTO_LIGHT"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

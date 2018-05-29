@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.sacombank.consumers.views.policy.PolicyFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.sacombank.consumers.views.widgets.TextViewPlus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/txtDKDK"
+                android:textColor="#0000EE"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:editfont="@string/ROBOTO_LIGHT" />
+
+            <com.sacombank.consumers.views.widgets.TextViewPlus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="30dp"
+                android:gravity="left"
+                android:text="@string/txtNoiDung"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                app:font="@string/ROBOTO_LIGHT" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>

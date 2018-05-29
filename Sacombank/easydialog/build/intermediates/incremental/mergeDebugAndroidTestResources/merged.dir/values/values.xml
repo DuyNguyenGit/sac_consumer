@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color_black">#66000000</color>
+    <dimen name="easy_dialog_default_left_margin">12dp</dimen>
+    <dimen name="easy_dialog_default_right_margin">12dp</dimen>
+    <string name="app_name">EasyDialog</string>
+</resources>

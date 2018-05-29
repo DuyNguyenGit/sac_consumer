@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.sacombank.consumers.views.widgets.TextViewPlus
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:gravity="left"
+            android:text="Số dư thẻ"
+            app:font="@string/ROBOTO_LIGHT"
+            android:textSize="16sp" />
+
+        <com.sacombank.consumers.views.widgets.TextViewPlus
+            android:id="@+id/txtSoDuTheSurPus"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            app:font="@string/ROBOTO_LIGHT"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/line"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.sacombank.consumers.views.widgets.TextViewPlus
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:gravity="left"
+            android:text="Số thẻ"
+            app:font="@string/ROBOTO_LIGHT"
+            android:textSize="16sp" />
+
+        <com.sacombank.consumers.views.widgets.TextViewPlus
+            android:id="@+id/txtSoTheSurPus"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            app:font="@string/ROBOTO_LIGHT"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/line"
+        android:gravity="center" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.sacombank.consumers.views.widgets.TextViewPlus
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:gravity="left"
+            android:text="Ngày hết hạn"
+            app:font="@string/ROBOTO_LIGHT"
+            android:textSize="16sp" />
+
+        <com.sacombank.consumers.views.widgets.TextViewPlus
+            android:id="@+id/txtNgayHetHanSurPus"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:font="@string/ROBOTO_LIGHT" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:id="@+id/ln_saoke">
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/txt_ma_saoke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:paddingLeft="30dp"
+        app:font="@string/ROBOTO_LIGHT"
+        android:text="123456789123456" />
+
+    <com.sacombank.consumers.views.widgets.TextViewPlus
+        android:id="@+id/txt_ngay_saoke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:textSize="16sp"
+        app:font="@string/ROBOTO_LIGHT"
+        android:paddingRight="30dp"
+        android:text="13/08/2017"
+        android:textColor="@color/bg_selected_tab" />
+
+</LinearLayout>

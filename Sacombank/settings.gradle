@@ -1,0 +1,1 @@
+include ':app', ':SlidingMenu', ':expandablerecyclerview', ':slideimage', ':infinitecycleviewpager', ':handshake', 'easydialog', ':zxing-android-embedded'

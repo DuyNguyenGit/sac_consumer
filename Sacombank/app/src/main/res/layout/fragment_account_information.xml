@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.sacombank.consumers.views.widgets.TextViewPlus
+                android:id="@+id/edtTenAcount"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="Trần Văn Hùng"
+                android:textColor="@color/color_text_account_page"
+                android:textSize="16sp"
+                app:font="@string/ROBOTO_LIGHT" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/line"
+                android:gravity="center" />
+
+            <com.sacombank.consumers.views.widgets.TextViewPlus
+                android:id="@+id/edtSoDienThoai"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="0902 446 664"
+                android:textColor="@color/color_text_account_page"
+                android:textSize="16sp"
+                app:font="@string/ROBOTO_LIGHT" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/line"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <com.sacombank.consumers.views.widgets.EditTextViewPlus
+                    android:id="@+id/edtEmail"
+                    style="@style/style_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:enabled="false"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="30"
+                    android:paddingLeft="0dp"
+                    android:text="hung.tran@gmail.com"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp"
+                    app:editfont="@string/ROBOTO_LIGHT">
+
+                    <requestFocus />
+
+                </com.sacombank.consumers.views.widgets.EditTextViewPlus>
+
+
+                <ImageView
+                    android:id="@+id/imgEditMail"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/profile_edit" />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/line"
+                android:gravity="center" />
+
+            <com.sacombank.consumers.views.widgets.TextViewPlus
+                android:id="@+id/edtDiaChi"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="220/20 Võ Thị Sáu, Phường 6, Quận 3"
+                android:textColor="@color/color_text_account_page"
+                android:textSize="16sp"
+                app:font="@string/ROBOTO_LIGHT" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/line"
+                android:gravity="center" />
+
+            <com.sacombank.consumers.views.widgets.TextViewPlus
+                android:id="@+id/edtThanhPho"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="TP. Hồ Chí Minh"
+                android:textColor="@color/color_text_account_page"
+                android:textSize="16sp"
+                app:font="@string/ROBOTO_LIGHT" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/line"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:orientation="horizontal">
+
+                <com.sacombank.consumers.views.widgets.TextViewPlus
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="Giới tính"
+                    android:textColor="@color/color_text_account_page"
+                    android:textSize="16sp"
+                    app:font="@string/ROBOTO_LIGHT" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioNAM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:buttonTint="@color/colorPrimary"
+                        android:checked="true"
+                        android:clickable="false"
+                        android:text="Nam"
+                        android:textColor="@color/color_text_account_page"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioNU"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="30dp"
+                        android:buttonTint="@color/colorPrimary"
+                        android:clickable="false"
+                        android:text="Nữ"
+                        android:textColor="@color/color_text_account_page"
+                        android:textSize="20dp" />
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/line"
+                android:gravity="center" />
+
+            <com.sacombank.consumers.views.widgets.TextViewPlus
+                android:id="@+id/edtMarketing"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="Marketing"
+                android:textColor="@color/color_text_account_page"
+                android:textSize="16sp"
+                app:font="@string/ROBOTO_LIGHT" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/line"
+                android:gravity="center" />
+
+            <com.sacombank.consumers.views.widgets.ButtonPlus
+                android:id="@+id/btnHoanTatAccountInfomation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/xacnhan"
+                android:text="Hoàn tất"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                app:buttonfont="@string/ROBOTO_LIGHT" />
+
+            <com.sacombank.consumers.views.widgets.TextViewPlus
+                android:id="@+id/txtThongBao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Để thay đổi thông tin tài khoản người dùng \n Vui lòng liên hệ ngân hàng theo hotline: "
+                android:textColor="@color/color_text_account_page"
+                android:textSize="16sp"
+                app:font="@string/ROBOTO_LIGHT" />
+
+            <com.sacombank.consumers.views.widgets.TextViewPlus
+                android:id="@+id/txtTsoDt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="1900 5555 88 - (+84) 28 3526 6060"
+                android:textColor="#003366"
+                android:textSize="16sp"
+                app:font="@string/ROBOTO_LIGHT" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">mCARD</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="greeting_menu">Xin chào!</string>
+    <string name="greeting_menu_2">Bạn vui lòng đăng ký /đăng nhập để sử dụng ứng dụng</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Số điện thoại</string>
+    <string name="prompt_password">mPass (mật mã giao dịch)</string>
+    <string name="action_sign_in">Đăng nhập</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="welcometo">Welcome to Sacombank</string>
+    <string name="produce">Tối ưu giải pháp tài chính trọn gói, hiện đại và đa tiện ích cho khách hàng</string>
+
+    <!--SIDE-MENU-->
+    <string name="home">Trang chủ</string>
+    <string name="introduce">Liên hệ</string>
+    <string name="account">Tài khoản người dùng</string>
+    <string name="account_register">Đăng nhập/Đăng ký</string>
+    <string name="account_update_pass">Cập nhật mật khẩu</string>
+    <string name="account_user">Thông tin người dùng</string>
+    <string name="account_card_manager">Quản lý thẻ</string>
+    <string name="payment">Thanh toán</string>
+    <string name="payment_qr">Thanh toán QR</string>
+    <string name="payment_bill">Thanh toán hóa đơn</string>
+    <string name="payment_credit">Thanh toán thẻ tín dụng</string>
+    <string name="payment_card">Nạp tiền điện thoại</string>
+    <string name="online">Chuyển khoản trực tuyến</string>
+    <string name="history">Lịch sử giao dịch</string>
+    <string name="history_qr">Thanh toán QR</string>
+    <string name="history_pos">Thanh toán bằng Mobile POS</string>
+    <string name="history_bill">Thanh toán hóa đơn</string>
+    <string name="history_credit">Thanh toán thẻ tín dụng</string>
+    <string name="history_phone_card">Nạp tiền điện thoại</string>
+    <string name="language">Ngôn ngữ</string>
+    <!--SIDE MENU-->
+
+    <!--TAB CATEGORY-->
+    <string name="food">Ẩm thực</string>
+    <string name="travel">Du lịch</string>
+    <string name="shopping">Mua sắm</string>
+    <string name="relax">Giải trí</string>
+    <string name="sport">Thể thao</string>
+    <string name="art">Nghệ thuật</string>
+    <!--TAB CATEGORY-->
+
+    <!-- TAB Language-->
+    <string name="confirm">Xác nhận</string>
+    <string name="vietnamese">Tiếng Việt</string>
+    <string name="english">Tiếng Anh</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register_message">Đăng ký thông tin tài khoản ứng dụng</string>
+    <string name="prompt_card_no">Số tài khoản/số thẻ</string>
+    <string name="policy_mesage">Tôi đã đọc và đồng ý với các điều khoản và điều kiện sử dụng ứng dụng của sacombank</string>
+    <string name="action_no">Không</string>
+    <string name="forgot_pass_message">Bạn sẽ phải đăng ký lại tài khoản ứng dụng nếu quên mật khẩu. Các lịch sử hoạt động trên tài khoản cũ sẽ bị mất đi. Bạn có muốn tiếp tục?</string>
+    <string name="tab_2_title">Quét mã QR</string>
+    <string name="tab_3_title">Thanh toán</string>
+    <string name="tab_4_title">Chuyển khoản</string>
+
+    <string name="btn_OK_DialogCard">OK</string>
+    <string name="hintEnterPinCard">Nhập mã PIN</string>
+    <string name="txtContentQRCode">Vui lòng nhập mPass:</string>
+    <string name="edEnterPassword">Nhập mã giao dịch (mPass)</string>
+    <string name="btn_OK_DialogEnterPassword">Hoàn tất</string>
+    <string name="btn_OK_DialogQRCode">Hoàn tất</string>
+    <string name="txtContentLoginOnDiviceAnother">Bạn đang yêu cầu đăng nhập trên một thiết bị khác.  Vui lòng nhập mã PIN của thẻ đã được đăng ký trên tài khoản ứng dụng để hoàn tất đăng nhập</string>
+    <string name="edEnterPinLoginOnDiviceAnother">Nhập mã PIN</string>
+    <string name="btn_OK_DialogLoginOnDiviceAnother">Hoàn tất</string>
+    <string name="thanks">Cảm ơn !</string>
+    <string name="thanks_message">Cảm ơn bạn đã tin tưởng sử dụng dịch vụ thẻ của Sacombank</string>
+    <string name="action_finish">Hoàn tất</string>
+    <string name="signin_warning">Bạn không nhận được mã xác thực?</string>
+    <string name="send_again">Gửi lại</string>
+    <string name="signin_confirm_message">Một tin nhắn chứa mã xác thực đã gửi đến số điện thoại %1$s</string>
+    <string name="prompt_confirm_code">Nhập mã xác thực</string>
+    <string name="register_password_message">Thiết lập mPass (mật mã giao dịch),    (bao gồm 6 số))</string>
+    <string name="prompt_signup_pass1">mPass</string>
+    <string name="prompt_signup_pass2">Nhập lại mPass</string>
+    <string name="close_dialog">OK</string>
+    <string name="notify_register_success">Đăng ký tài khoản thành công!</string>
+    <string name="title_article_detail">Ưu đãi từ đối tác</string>
+    <string name="tab_title_card_info">Thông tin chung</string>
+    <string name="tab_title_card_copy">Sao kê</string>
+    <string name="tab_title_card_balance">Số dư</string>
+    <string name="text_account_password_title">Vui lòng cập nhật đầy đủ thông tin bên dưới</string>
+    <string name="title_password_old">Nhập mPass cũ (6 chữ số)</string>
+    <string name="title_password_new1">Nhập mPass mới (6 chữ số)</string>
+    <string name="title_password_new2">Nhập lại mPass mới (6 chữ số)</string>
+    <string name="hint_password_new2">XXXXXX</string>
+    <string name="hint_password_new1">XXXXXX</string>
+    <string name="hint_password_old">XXXXXX</string>
+    <string name="action_confirm">Xác nhận</string>
+    <string name="title_update_pass">Cập nhật mật khẩu</string>
+    <string name="thongTinChiTietDonHang">CHI TIẾT ĐƠN HÀNG</string>
+    <string name="action_sign_up">Đăng ký</string>
+    <string name="txtTuDongKhoaThe">*Tự động khóa thẻ sau khi giao dịch thành công</string>
+    <string name="account_logout">Đăng xuất</string>
+    <string name="confirm_logout">Bạn muốn đăng xuất tài khoản này?</string>
+    <string name="btnTiepTucQRCode1">Tiếp tục</string>
+    <string name="textDieuKhoanDieuKien">dsds</string>
+    <string name="like_counter">(%1$d)</string>
+    <string name="due_date_promotion">Chỉ còn %1$s ngày</string>
+    <string name="txtNoiDung">1. Nhận thức chung \n
+            Nội dung của Điều khoản và Điều kiện dưới đây cùng với Giấy đề nghị phát hành thẻ kiêm Hợp đồng sử dụng thẻ, Điều khoản và Điều kiện phát hành và sử dụng thẻ (hoặc các văn bản khác có giá trị tương đương) tạo thành một Hợp Đồng sử dụng ứng dụng Sacombank mCard giữa Sacombank và Chủ thẻ (gọi tắt là Hợp Đồng). Tham gia vào Hợp Đồng, thể hiện bằng việc tải và sử dụng ứng dụng Sacombank mCard (bao gồm nhưng không giới hạn trường hợp chủ thẻ chưa đăng ký/đăng nhập ứng dụng), Chủ thẻ và Sacombank đã ràng buộc mình vào việc tuân thủ các Điều Khoản và Điều Kiện chi phối việc sử dụng ứng dụng Thẻ Sacombank khi Chủ thẻ thực hiện sử dụng hoặc giao dịch trên ứng dụng Thẻ Sacombank. \n
+        Chủ thẻ cam kết đã đọc, hiểu rõ và đồng ý với Điều khoản và Điều kiện này, cam kết thực hiện đúng các quy định tại Điều khoản và Điều kiện này cũng như các thỏa thuận có liên quan khác với Sacombank. \n \n
+        2. Giải thích từ ngữ \n
+        2.1 “Ứng dụng Sacombank mCard”: là ứng dụng trên thiết bị di động (bao gồm điện thoại di động thông minh và thiết bị di động thông minh) có kết nối Internet cho phép Chủ thẻ tìm kiếm và cập nhật kịp thời các ưu đãi từ Sacombank, thanh toán tiền hàng hóa, dịch vụ trực tuyến hoặc tại bất cứ ĐVCNT nào bằng mã QR (QR Code) ngay trên thiết bị di động. Ngoài ra, ứng dụng Sacombank mCard còn là phương tiện thuận lợi để khách hàng chủ động kích hoạt, khóa, mở khóa thẻ và thực hiện các giao dịch khác do Sacombank phát triển và cập nhật trong từng thời kỳ. \n
+        2.2  Sacombank: là Ngân hàng TMCP Sài Gòn Thương Tín. \n
+        2.3  Chủ thẻ: là các cá nhân, tổ chức được Sacombank cung cấp Thẻ để sử dụng hoặc được tổ chức ủy quyền để sử dụng Thẻ, bao gồm Chủ thẻ chính, Chủ thẻ phụ và người được tổ chức ủy quyền sử dụng thẻ. \n
+        2.4 Thẻ: bao gồm Thẻ ghi nợ, Thẻ tín dụng, Thẻ trả trước được Sacombank cung cấp cho Chủ thẻ để sử dụng và được đăng ký thông tin tại Ứng dụng Thẻ Sacombank. \n
+        2.5 “Đơn vị chấp nhận thẻ” (ĐVCNT): là bất kỳ tổ chức hoặc cá nhân nào chấp nhận thanh toán hàng hóa, dịch vụ bằng Thẻ theo Hợp đồng thanh toán thẻ ký kết với Tổ chức thanh toán thẻ. \n
+        2.6  “Nhà cung cấp dịch vụ di động”: là mọi cá nhân/tổ chức được chấp nhận bởi cơ quan có thẩm quyền tại Việt Nam để cung cấp dịch vụ di động hỗ trợ đường truyền điện thoại hoặc dịch vụ đường truyền dữ liệu. \n
+        2.7  Thông tin mật: là những thông tin mà Chủ thẻ sử dụng để đăng nhập và sử dụng ứng dụng Sacombank mCard, bao gồm nhưng không giới hạn tên đăng nhập (User ID), mật mã giao dịch (mPass) đăng nhập (login password), mã xác thực (OTP). \n \n
+        3. Quyền và trách nhiệm của Chủ thẻ \n
+        3.1 Khi thực hiện đăng ký sử dụng ứng dụng, kết nối thẻ trên ứng dụng cũng như sử dụng các dịch vụ do Sacombank cung cấp , Chủ thẻ cần cung cấp đầy đủ, chính xác, kịp thời các thông tin cần thiết theo yêu cầu của Sacombank và cam kết chịu mọi trách nhiệm đối với các thông tin này. \n
+        3.2  Chủ thẻ có trách nhiệm cập nhật đầy đủ, chính xác, kịp thời cho Sacombank các thông tin bao gồm nhưng không giới hạn thông tin đăng nhập, thông tin cá nhân của Chủ thẻ, thông tin Thẻ khi có bất kỳ sự thay đổi nào so với các thông tin mà Chủ thẻ đã đăng ký tại ứng dụng Thẻ Sacombank hoặc khi có yêu cầu của Sacombank. Trường hợp Chủ thẻ không thông báo hoặc thông báo không chính xác, đầy đủ các thông tin trên thì Chủ thẻ phải chịu hoàn toàn trách nhiệm đối với mọi thiệt hại, trách nhiệm phát sinh do việc sử dụng ứng dụng Thẻ Sacombank, không liên quan đến Sacombank và không ảnh hưởng đến giá trị hiệu lực các giao dịch đã thực hiện. \n
+        3.3  Khi cài đặt và kích hoạt sử dụng ứng dụng trên thiết bị di động của mình, Chủ thẻ ý thức được rằng việc cài đặt, bảo quản thiết bị này và bảo mật “Thông tin mật” là rất quan trọng. Chủ thẻ có trách nhiệm cài đặt ứng dụng theo đúng hướng dẫn của Sacombank đồng thời bảo quản và cam kết thực hiện tất cả các biện pháp cần thiết để phòng ngừa, ngăn chặn việc sử dụng trái phép thiết bị di động của mình và  các “Thông tin mật”. Chủ thẻ hoàn toàn chịu trách nhiệm về các giao dịch được thực hiện thông qua thiết bị di động của mình và hoặc các giao dịch được nhân danh mình do (i) thiết bị di động bị thất lạc hoặc bị người khác sử dụng, (ii) “Thông tin mật” bị tiết lộ không do lỗi của Sacombank. \n
+        3.4  Khi thiết bị di động bị thất lạc và/hoặc khi Chủ thẻ nghi ngờ hoặc xác định được rằng “Thông tin mật” bị tiết lộ và/hoặc ứng dụng thẻ Sacombank bị truy cập trái phép thì Chủ thẻ liên lạc với Sacombank theo số 1900555588/02835266060 để tạm khóa thẻ. Trường hợp Chủ thẻ không thông báo cho Sacombank dẫn đến Sacombank không kịp thời tạm khóa thẻ thì Chủ thẻ phải chịu trách nhiệm với mọi giao dịch và/hoặc thiệt hại phát sinh khi xảy ra các trường hợp trên. \n
+        3.5 Chủ thẻ chịu trách nhiệm về các giao dịch được thực hiện thông qua ứng dụng này và tự giải quyết các tranh chấp phát sinh và hoặc liên quan đến hàng hóa, dịch vụ mà mình thực hiện với ĐVCNT. \n
+        3.6  Chủ thẻ có quyền khiếu nại về các sai sót, vi phạm (nếu có) phát sinh trong quá trình sử dụng ứng dụng theo Điều kiện và điều khoản sử dụng thẻ và Điều kiện và điều khoản này của Sacombank. Việc khiếu nại phải được lập thành văn bản và gửi cho Sacombank. Chủ thẻ được quyền khiếu nại trong một khoảng thời gian nhất định theo quy định của Sacombank kể từ ngày phát sinh giao dịch đề nghị tra soát, khiếu nại. Quá thời hạn trên, Sacombank sẽ không chịu bất cứ trách nhiệm nào phát sinh hoặc có liên quan. Trường hợp khiếu nại của Chủ thẻ không liên quan đến lỗi của Sacombank, Chủ thẻ sẽ phải chịu phí phát sinh từ việc xử lý khiếu nại theo quy định của Sacombank. \n
+        3.7  Chủ thẻ phải tự đảm bảo quá trình thực hiện giao dịch trên ứng dụng Sacombank mCard chính xác, đầy đủ và chịu trách nhiệm về tính chính xác, hợp pháp của các giao dịch do mình thực hiện thông qua ứng dụng Thẻ Sacombank. \n
+        3.8  Chủ thẻ phải đơn phương chịu trách nhiệm về việc lắp đặt, duy trì và vận hành các thiết bị di động của Chủ thẻ, về phần mềm của thiết bị di động, kể cả phần mềm trình duyệt được sử dụng trong việc giao dịch trên ứng dụng Sacombank mCard và thường xuyên cập nhật các chương trình diệt virus trên thiết bị di động, cập nhật phiên bản của ứng dụng Sacombank mCardnhằm đảm bảo việc truy cập và sử dụng ứng dụng Sacombank mCard. Sacombank không chịu trách nhiệm với việc mất dữ liệu, phần mềm, hỏng hóc điện thoại, ứng dụng đã cài đặt của Chủ thẻ trong quá trình sử dụng ứng dụng Thẻ Sacombank. \n
+        3.9  Chủ thẻ chịu trách nhiệm đảm bảo thiết bị di động cá nhân và phần mềm Chủ thẻ sử dụng đáp ứng được việc truy cập và giao dịch trên ứng dụng Sacombank mCard. \n
+        3.10 Sacombank sẽ không tính bất kỳ khoản phí nào cho việc tải và sử dụng ứng dụng Sacombank mCard (trường hợp có tính phí sẽ theo quy định của Sacombank trong từng thời kỳ) Tuy nhiên, Chủ thẻ phải chịu trách nhiệm thanh toán phí tải dữ liệu và mọi khoản phí khác theo quy định của Nhà cung cấp dịch vụ di động. Việc trả phí liên quan đến phát hành và sử dụng thẻ thực hiện theo quy định tại các Điều khoản và Điều kiện phát hành và sử dụng thẻ tương ứng. \n
+        3.11 Chủ thẻ cho Sacombank thay mặt Chủ thẻthực hiện các giao dịch ngân hàng hay giao dịch khác của Chủ thẻ thông qua ứng dụng.\n
+        3.12 Chủ thẻ phải hoàn trả cho Sacombank những khoản thanh toán thừa, thanh toán quá số dư được phép trên tài khoản/thẻ và lãi phát sinh theo quy định của Sacombank, những khoản tiền ghi Có nhầm, thừa vào tài khoản theo nhận định của Sacombank (nếu có). Theo đó Chủ thẻ đồng ý rằng Sacombank có quyền tự động trích tiền từ tài khoản thanh toán hoặc tài khoản thẻ của Chủ thẻ để thu hồi những khoản tiền này. \n
+        3.13 Chủ thẻ không thể hủy, phủ nhận bất kỳ giao dịch nào được thực hiện trên ứng dụng Sacombank mCard bằng các Thông tin mật của Chủ thẻ. \n \n
+        4. Quyền và trách nhiệm của Sacombank \n
+        4.1  Sacombank, theo sự cho phép của Chủ thẻ tại Hợp đồng này, sẽ sử dụng các thông tin mà Chủ thẻ đã cung cấp tại ứng dụng Sacombank mCard để truyền thông các chương trình đến Chủ thẻ, bao gồm nhưng không giới hạn các sản phẩm dịch vụ của Sacombank. \n
+        4.2 Sacombank có nghĩa vụ tạm khóa thẻ ngày khi nhận được yêu cầu của Chủ thẻ khi xảy ra các trường hợp theo quy định tại Điều 3.4 Điều khoản và Điều kiện này.\n
+        4.3  Sacombank có thể, tùy theo quyền quyết định của mình, chấm dứt/từ chối việc thực hiện giao dịch, tạm ngưng một/một số /toàn bộ các dịch vụ mà Sacombank cung cấp tại ứng dụng, khóa chức năng đăng nhập của Chủ thẻ hoặc yêu cầu một khoản bồi thường từ Chủ thẻ trước khi tiếp tục sử dụng ứng dụng mà không cần báo trước khi xảy ra một trong các sự kiện: (i) Khi phát hiện Chủ thẻ vi phạm quy định pháp luật, quy định tại Hợp đồng này hoặc bất kỳ cam kết, thỏa thuận hoặc Hợp đồng nào liên quan đến việc phát hành và sử dụng Thẻ với Sacombank; (ii) Theo yêu cầu của pháp luật hoặc cơ quan nhà nước có thẩm quyền; (iii) Các trường hợp liên quan đến giả mạo và rủi ro; (iv) Khi Sacombank có lý do để nghi ngờ rằng việc sử dụng ứng dụng của Chủ thẻ sẽ ảnh hưởng đến lợi ích của Sacombank/Chủ thẻ/Bên thứ ba; hoặc (v) Sacombank tạm ngưng dịch vụ để bảo trì, sửa chữa hệ thống. \n
+        4.4  Sacombank có quyền dựa vào tất cả các thông tin hoặc chỉ thị điện tử được Chủ thẻ yêu cầu Sacombank trên ứng dụng này để thực hiện và không có nghĩa vụ xác minh hoặc yêu cầu thêm thông tin nhằm xác minh tính rõ ràng của yêu cầu. \n
+        4.5  Ứng dụng thẻ Sacombank là thuộc quyền sở hữu của Sacombank, theo đó Sacombank có quyền, nhưng không có nghĩa vụ để thực hiện thay đổi, cải tiến và/hoặc sửa đổi ứng dụng cung cấp theo từng thời kỳ. \n
+        4.6  Sacombank có quyền sửa đổi, bổ sung nội dung Điều Khoản và Điều Kiện bất cứ lúc nào bằng cách thông báo trước khi có hiệu lực cho Chủ thẻ bằng email hoặc văn bản theo địa chỉ cuối cùng mà Chủ thẻ đăng ký tại Sacombank hoặc công bố trên website chính thức của Sacombank hoặc thông báo trên các phương tiện thông tin đại chúng hay niêm yết tại hệ thống Sacombank. Các sửa đổi, bổ sung sẽ có giá trị ràng buộc Chủ thẻ nếu Chủ thẻ tiếp tục sử dụng ứng dụng thẻ Sacombank ngay sau khi sự sửa đổi, bổ sung có hiệu lực. \n
+        4.7 Sacombank bảo mật các thông tin liên quan đến Chủ thẻ theo quy định của pháp luật. \n
+        4.8  Sacombank không đảm bảo việc cung cấp các thông tin và dịch vụ của mình qua ứng dụng Thẻ Sacombank là liên tục và không bị gián đoạn. Vì vậy, Chủ thẻ hiểu rằng tại một số thời điểm nhất định, Chủ thẻ sẽ không thể truy cập, sử dụng hoặc thực hiện một, một số hoặc tất cả các dịch vụ mà Sacombank cung cấp tại ứng dụng Sacombank mCard. Đồng thời, Sacombank được miễn trách nhiệm do không thực hiện giao dịch theo yêu cầu của Chủ thẻ trong trường hợp hệ thống xử lý, hệ thống truyền tin bị trục trặc hoặc vì bất cứ lý do nào khác. \n
+        4.9  Sacombank không có trách nhiệm với những thiệt hại do nguyên nhân vượt quá phạm vi kiểm soát của Sacombank dẫn đến việc không cung cấp hoặc cung cấp không chính xác các dịch vụ theo yêu cầu của Chủ thẻ tại ứng dụng Sacombank mCard bao gồm nhưng không giới hạn, các nguyên nhân sự cố kỹ thuật, phá hoại, động đất, thiên tai, đứt nghẽn mạng, mất điện, người sử dụng thực hiện giao dịch tại nước ngoài… \n \n
+        5. Quy định khác \n
+        5.1 Tất cả các thông báo sẽ xem như Chủ thẻ đã nhận được: \n
+            a. Trong vòng 5 ngày kể từ ngày gửi (tính theo dấu bưu điện nơi gửi) nếu gửi bằng thư; hoặc \n
+            b. Vào ngày gửi đi nếu gửi bằng fax, telex, email mà Chủ thẻ đã đăng ký với Sacombank; hoặc \n
+            c. Vào ngày công bố trên website chính thức của Sacombank hoặc thông báo trên các phương tiện thông tin đại chúng hay ngày niêm yết tại các hệ thống Sacombank. \n
+        5.2  Chủ thẻ, là cả Chủ thẻ Chính và tất cả các Chủ thẻ Phụ, liên đới chịu trách nhiệm về những nghĩa vụ của mình theo quy định tại Hợp Đồng này. Bất kỳ thông báo nào cho bất kỳ một Chủ thẻ nào sẽ được xem là có thông báo cho tất cả các Chủ thẻ. \n
+        5.3  Chủ thẻ ủy quyền và đồng ý để Sacombank hoặc bất kỳ bên đại diện nào của Sacombank sử dụng, lưu trữ, cung cấp, hoặc trao đổi những thông tin về Chủ thẻ, Thẻ, Giao Dịch Thẻ và/hoặc bất kỳ thông tin có liên quan nào khác bao gồm cả thông tin tín dụng của Chủ thẻ với bất kỳ tổ chức và/hoặc cá nhân nào. \n
+        5.4 Sacombank có quyền chuyển nhượng và/hoặc chuyển giao vô điều kiện bằng hình thức khác toàn bộ hay một phần quyền và/hoặc nghĩa vụ của mình theo Hợp Đồng này cho bất kỳ bên thứ ba nào. Chủ thẻ sẽ phải thực hiện bất kỳ hành động nào hay chấp nhận bất kỳ tài liệu nào của Sacombank để hoàn tất việc chuyển nhượng và chuyển giao đó theo yêu cầu của Sacombank. \n
+        5.5  Chủ thẻ không được chuyển nhượng hay chuyển giao toàn bộ hay một phần quyền và/hoặc nghĩa vụ của mình theo Hợp Đồng này cho bất kỳ bên thứ ba nào. Trường hợp Chủ Thẻ chuyển nhượng, chuyển giao một phần hay toàn bộ các quyền và/hoặc nghĩa vụ của mình theo Hợp đồng cho bên thứ ba, Chủ Thẻ phải chịu toàn bộ trách nhiệm liên quan đến việc bên thứ ba sử dụng ứng dụng này. \n
+        5.6  Hợp Đồng và Điều khoản và Điều kiện này được điều chỉnh bởi pháp luật hiện hành của nước Cộng Hòa Xã Hội Chủ Nghĩa Việt Nam. Trong trường hợp có tranh chấp giữa Chủ thẻ và Sacombank mà không giải quyết được bằng thương lượng hòa giải, tranh chấp sẽ được đưa ra Tòa án có thẩm quyền tại Việt Nam giải quyết theo luật pháp Việt Nam. \n
+        5.7  Chủ thẻ có thể liên lạc với Sacombank qua số điện thoại 1900 5555 88/028 3526 6060 để được hỗ trợ tư vấn, giải đáp thắc mắc về các sản phẩm hoặc dịch vụ (liên quan đến thẻ) do Sacombank cung cấp ngoại trừ những yêu cầu ngoài khả năng của Sacombank (như sự cố do lỗi Chủ thẻ khi thực hiện giao dịch, sự cố do lỗi bên thứ ba hoặc những yêu cầu bất hợp lý khác của Chủ thẻ). \n
+        5.8  Các nội dung liên quan đến việc phát hành và sử dụng Thẻ chưa được quy định tại Điều khoản và Điều kiện này sẽ áp dụng theo các quy định tại các Điều khoản và Điều kiện phát hành và sử dụng của từng loại Thẻ. Trường hợp có mâu thuẫn giữa nội dung tại Điều khoản và Điều kiện này và các Điều khoản và Điều kiện phát hành và sử dụng của từng loại Thẻ, nội dung tại các Điều khoản và Điều kiện phát hành và sử dụng của từng loại Thẻ sẽ được ưu tiên áp dụng. \n
+        Mọi chi tiết, vui lòng liên hệ: ask@sacombank.com | 1900 5555 88 | 028 3526 6060.</string>
+    <string name="txtDKDK">ĐIỀU KHOẢN VÀ ĐIỀU KIỆN SỬ DỤNG ỨNG DỤNG SACOMBANK mCARD</string>
+    <string name="dialog_message_confirm_update_card">Bạn có muốn cập nhật trạng thái thẻ mặc định không ?</string>
+    <string name="textview_order_number">Mã đơn hàng</string>
+    <string name="textView_amount_money">Tổng số tiền</string>
+    <string name="textview_pay_at">Thanh toán tại</string>
+    <string name="textview_day_trading">Ngày giao dịch</string>
+    <string name="textview_payment_account">LOẠI THẺ THANH TOÁN</string>
+    <string name="textview_option_tags">Lựa chọn thẻ</string>
+    <string name="transaction">Thông báo giao dịch</string>
+    <string name="qrScanner">Quét mã QR \n Hướng camera vào mã QR để thanh toán</string>
+    <string name="incorrect_qr_code">Không đúng mã QR</string>
+</resources>

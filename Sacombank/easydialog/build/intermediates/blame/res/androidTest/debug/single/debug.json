@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Freelancer\\Sacombank\\Sacombank\\easydialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_layout_dialog.xml.flat",
+        "source": "D:\\Freelancer\\Sacombank\\Sacombank\\easydialog\\build\\intermediates\\bundles\\debug\\res\\layout\\layout_dialog.xml"
+    },
+    {
+        "merged": "D:\\Freelancer\\Sacombank\\Sacombank\\easydialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_triangle_left.xml.flat",
+        "source": "D:\\Freelancer\\Sacombank\\Sacombank\\easydialog\\build\\intermediates\\bundles\\debug\\res\\drawable\\triangle_left.xml"
+    },
+    {
+        "merged": "D:\\Freelancer\\Sacombank\\Sacombank\\easydialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_triangle_top.xml.flat",
+        "source": "D:\\Freelancer\\Sacombank\\Sacombank\\easydialog\\build\\intermediates\\bundles\\debug\\res\\drawable\\triangle_top.xml"
+    },
+    {
+        "merged": "D:\\Freelancer\\Sacombank\\Sacombank\\easydialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_triangle_bottom.xml.flat",
+        "source": "D:\\Freelancer\\Sacombank\\Sacombank\\easydialog\\build\\intermediates\\bundles\\debug\\res\\drawable\\triangle_bottom.xml"
+    },
+    {
+        "merged": "D:\\Freelancer\\Sacombank\\Sacombank\\easydialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_round_corner_bg.xml.flat",
+        "source": "D:\\Freelancer\\Sacombank\\Sacombank\\easydialog\\build\\intermediates\\bundles\\debug\\res\\drawable\\round_corner_bg.xml"
+    },
+    {
+        "merged": "D:\\Freelancer\\Sacombank\\Sacombank\\easydialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_triangle_right.xml.flat",
+        "source": "D:\\Freelancer\\Sacombank\\Sacombank\\easydialog\\build\\intermediates\\bundles\\debug\\res\\drawable\\triangle_right.xml"
+    }
+]

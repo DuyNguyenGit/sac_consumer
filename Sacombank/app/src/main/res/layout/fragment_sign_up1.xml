@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.sacombank.consumers.views.loginregister.register.SignUp1Fragment">
+
+    <com.sacombank.consumers.views.widgets.EditTextViewPlus
+        android:id="@+id/edtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_edit_text"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:hint="@string/prompt_email"
+        android:imeOptions="actionNext"
+        android:inputType="numberDecimal"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:editfont="@string/ROBOTO_LIGHT" />
+
+    <com.sacombank.consumers.views.widgets.EditTextViewPlus
+        android:id="@+id/edtCardNo"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_edit_text"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:hint="@string/prompt_card_no"
+        android:imeActionId="@+id/login"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:imeOptions="actionNext"
+        android:inputType="numberDecimal"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:editfont="@string/ROBOTO_LIGHT" />
+
+
+    <com.sacombank.consumers.views.widgets.EditTextViewPlus
+        android:id="@+id/edtCVV"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/rounded_edit_text"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:hint="@string/prompt_cvv"
+        android:imeActionId="@+id/login"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:editfont="@string/ROBOTO_LIGHT" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:button="@drawable/checkbox_background"
+            android:checked="false"
+            android:gravity="top"
+            android:paddingLeft="10dp"
+            android:theme="@style/WhiteCheck" />
+
+        <TextView
+            android:id="@+id/txtDKDK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:paddingLeft="5dp"
+            android:text="@string/policy_mesage"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:theme="@style/WhiteCheck" />
+
+    </LinearLayout>
+
+
+    <com.sacombank.consumers.views.widgets.ButtonPlus
+        android:id="@+id/btnRegister"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/login_button_bg"
+        android:text="@string/action_sign_up"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:buttonfont="@string/ROBOTO_LIGHT" />
+
+</LinearLayout>
